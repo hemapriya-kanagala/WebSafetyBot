@@ -81,7 +81,7 @@ const LandingPage = () => {
             Welcome to WebSafetyBot
           </Typography>
           <Typography variant={isSmallScreen ? "h6" : "h5"} component="h2" paragraph>
-            We’re here to help you stay safe online by making cybersecurity simple and easy to understand.
+            We are here to help you stay safe online by making cybersecurity simple and easy to understand.
           </Typography>
 
           <Typography variant={isSmallScreen ? "h5" : "h4"} component="h2" gutterBottom sx={{ marginTop: 6 }}>
@@ -118,7 +118,7 @@ const LandingPage = () => {
                   24/7 Support
                 </Typography>
                 <Typography variant="body1">
-                  We're here for you round the clock, ensuring you get the help you need anytime.
+                  We are here for you round the clock, ensuring you get the help you need anytime.
                 </Typography>
               </FeatureCard>
             </Grid>
