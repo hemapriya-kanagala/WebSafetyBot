@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WebSafetyBot
 
-## Getting Started
+Welcome to **WebSafetyBot**! Our mission is to help you stay safe online by making cybersecurity simple and easy to understand. Please consider us your guide to avoiding online threats like scams and phishing. We use everyday language and real-life examples to explain complex topics, so everyone, including kids, can get the hang of it. Whether you’re wondering about a suspicious email or how to keep your online shopping safe, we’re here to provide clear, practical advice.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **User-Friendly Chat Interface**: Engage with our chatbot to get practical advice and information about cybersecurity threats.
+- **Personalized Support**: Receive tailored recommendations based on your queries and interactions.
+- **24/7 Availability**: Access support and advice anytime you need it.
+- **Multi-Language Support**: Use our chatbot in different languages for better accessibility.
+- **Integration with AI**: Powered by the Gemini API for advanced AI interactions.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Frontend**: 
+  - Next.js
+  - React
+  - Material-UI (MUI)
+- **Backend**: 
+  - Node.js
+  - Express
+  - Gemini API (for AI interactions)
+- **Authentication**: 
+  - Firebase Authentication (Google authentication)
+- **Database**: 
+  - Firebase Firestore
+- **Deployment**: 
+  - Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributing
 
-## Learn More
+1. **Fork the Repository:**
 
-To learn more about Next.js, take a look at the following resources:
+   - Click the "Fork" button at the top right of the repository page on GitHub.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Create a Branch:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   git checkout -b feature/your-feature
+   ```
 
-## Deploy on Vercel
+3. **Commit Changes:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git add .
+   git commit -m "Add a new feature"
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. **Push to GitHub:**
+
+   ```bash
+   git push origin feature/your-feature
+   ```
+
+5. **Create a Pull Request:**
+
+   - Go to your repository on GitHub.
+   - Click on "Compare & pull request" to create a pull request with your changes.
