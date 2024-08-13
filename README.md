@@ -13,12 +13,10 @@ Welcome to **WebSafetyBot**! Our mission is to help you stay safe online by maki
 ## Tech Stack
 
 - **Frontend**: 
-  - Next.js
   - React
   - Material-UI (MUI)
 - **Backend**: 
   - Node.js
-  - Express
   - Gemini API (for AI interactions)
 - **Authentication**: 
   - Firebase Authentication (Google authentication)
